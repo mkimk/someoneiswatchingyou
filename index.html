@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="css.css">	
+	<script type="text/javascript" src="js/skrollr.min.js"></script>	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.imagemapster.js"></script>
+	<script type="text/javascript" src="js/jquery.imagemapster.min.js"></script>
+	<script type="text/javascript" src="js/imageMapResizer.min.js"></script>
+	<script type="text/javascript" src="js/imageMapResizer.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<title>Someone is Watching You. Now. In this Lobby</title>
+</head>
+<body>
+<!--header-->
+	<div id="title_bg"></div>
+	<div id="title">
+		<li class="copy">
+			<a class="title">Someone<br> is<br> Watching<br>You<br></a></p>
+		</li>
+	</div>
+	<div id="subtitle">
+		<span style="font-size:22px;line-height:12px;">▽</span> <!--<a href="#content1">-->Wanna know who?
+	</div>
+<!--left menu-->
+	<div id="menu_top" data-0="opacity:0;" data-700="opacity:0;" data-1200="opacity:100;" > 
+		<li>Someone is Watching You. Now. In this Lobby.</li>
+	</div>
+	<div id="menu_left" data-0="opacity:0;" data-1000="opacity:0; " data-1200="opacity:100; "></div>
+	<!--<div id="menu_right_title" data-0="opacity:0;" data-900="opacity:0;" data-1000="opacity:100;" > 
+		Someone <br>is <br>Watching<br>You<br>In this <br>Lobby
+	</div>-->
+	<div id="menu_right" data-0="opacity:0;" data-1000="opacity:0; " data-1200="opacity:100; "> 
+		<!--<li>Situation</li>
+		<li>Location</li>
+		<li>Technology</li>
+		<li>Drawing Letters</li>-->
+	</div>
+	<div id="menu_right2" data-0="opacity:0;" data-900="opacity:0;" data-1000="opacity:100; "> 
+		<!--background image will be here-->
+	</div>
+		<!--<div class="circle"></div>-->
+<!--content-->
+	<div id="content1">
+		<li class="text">
+		<h1>Situation</h1>
+			Reports indicated that a mysterious entity was surreptitiously spying on graduate students at the Rhode Island School of Design. While not a particular nuisance—graduate students were too sleep deprived to notice most of the time—administration believed the potential for maleficent malfeasance (or likely litigation) was too high to take no action. Our mission was to arm students with a way to assess for themselves how credible the threat was to their general educational experience at the school.
+			<h1>Location</h1>
+			Particularly disturbing was the location of the culprit’s action: <a id="link1" class="add" >the elevator lobby</a> of the CIT Building. Our analysis revealed that most students have a one-way relationship with this lobby—constantly in a rush to get to take the elevators, they don’t pay much attention to their surroundings and have little familiarity with its infrastructure. They are even unaware of emergency medical and communication equipment situated on the walls.
+			<h1>Technology</h1>
+			Further noticing that most occupants stand around looking at their smart phones while waiting for the elevator, we provided a technological intervention in the form of a mobile web application. Guided to the exact <a href src="http://someoneiswatchingyou.net" class="add2">web url</a> via <a id="link2" class="add">a strategically placed announcement message</a>, students gained the ability to discover the identity of the mysterious being. They retraced the recent path of the culprit</a> by answering a series of questions whose answers were associated with architectural and signage elements throughout the lobby.<br>
+			<!--<h2>Message</h2>
+			<h2><img src="img/wat_poster.jpg" style="width:70%;border:solid 1px #a18200;"></h2>-->
+			<h3> Find clues on the map and chase the watcher! ↴</h3>
+		</div>	
+<!--map-->
+	<div id="wrapper">		
+		<div id="map">
+			<img src="img/cit_map.jpg" usemap="#cit" id="img_cit_map" name="img_cit_map" align="middle">
+			<map id="cit" name="cit">
+				<area shape="rect" alt="" state="clue1" coords="542,302,592,349" href="img/c1.png" id="clue1" name="clue1">
+				<area shape="rect" alt="" state="clue2" coords="514,125,559,173" href="img/c2.png" id="clue2"/>
+				<area shape="rect" alt="" state="clue3" coords="419,114,466,162" href="img/c3.png" id="clue3" name="clue2"/>
+				<area shape="rect" alt="" state="clue4" coords="419,230,468,276" href="img/c4.png" id="clue4"/>
+				<area shape="rect" alt="" state="clue5" coords="633,399,680,446" href="img/c5.png" id="clue5"/>
+				<area shape="rect" alt="" state="clue6" coords="420,438,457,474" href="img/c6.png" id="clue6"/>
+				<area shape="rect" alt="" state="clue7" coords="517,439,565,467" href="img/c7.png" id="clue7"/>
+				<area shape="rect" alt="" state="clue8" coords="429,579,474,625" href="img/c8.png" id="clue8"/>
+				<area shape="rect" alt="" state="clue9" coords="591,679,636,726" href="img/c9.png" id="clue9"/>
+				<area shape="rect" alt="" state="clue10" coords="427,696,475,742" href="img/c10.png" id="clue10"/>
+				<area shape="rect" alt="" state="clue11" coords="430,765,475,812" href="img/c11.png" id="clue11"/>
+				<area shape="rect" alt="" state="clue12" coords="503,742,549,789" href="img/c12.png" id="clue12"/>
+				<area shape="rect" alt="" state="clue13" coords="429,801,465,846" href="img/c13.png" id="clue13"/>
+				<area shape="rect" alt="" state="clue14" coords="503,860,549,906" href="img/c14.png" id="clue14"/>
+				<area shape="rect" alt="" state="clue15" coords="428,919,474,966" href="img/c15.png" id="clue15"/>
+				<area shape="rect" alt="" state="clue16" coords="430,1082,475,1307" href="img/c16.png" id="clue16"/>
+				<area shape="rect" alt="" state="clue17" coords="397,1176,444,1405" href="img/c17.png" id="clue17"/>
+				<area shape="rect" alt="" state="clue18" coords="476,1162,511,1288" href="img/c18-1.png" id="clue18"/>
+				<area shape="rect" alt="" state="clue19" coords="503,1113,537,1440" href="img/c19.png" id="clue19"/>
+				<area shape="rect" alt="" state="clue20" coords="202,1159,247,1384" href="img/c20.png" id="clue20"/>	
+			</map>
+			<div id="tooltip-container"></div>
+			<script>	
+				var resizeTime = 100;     // total duration of the resize effect, 0 is instant
+				var resizeDelay = 100;    // time to wait before checking the window size again
+				                          // the shorter the time, the more reactive it will be.
+				                          // short or 0 times could cause problems with old browsers.		                          
+				$('#img_cit_map').mapster({
+					singleSelect: true,
+				    mapKey: 'state',
+				    render_highlight : { altImage : 'img/cit_map_2.jpg'},
+				    fillColor : '000000',
+					fillOpacity : 1,
+					wrapClass: 'map',
+					scaleMap: true,
+					
+					//showToolTipContainer: true,
+					toolTipContainer: $('#tooltip-container'),
+					areas: [
+			            {
+			                key: 'clue1',
+			                //includeKeys: 'rectangle',
+			         
+
+			                toolTip: 'Clue #1'
+			               // toolTipContainer:'<div><img src="" width="10%"></div>'
+			            },
+			            {
+			                key: 'clue2',
+			                toolTip: 'Clue #2'
+			            },
+			             {
+			                key: 'clue3',
+			                toolTip: 'Clue #3'
+			            },
+			            {
+			                key: 'clue4',
+			                toolTip: 'Clue #4'
+			            },
+			            {
+			                key: 'clue5',
+			                toolTip: 'Clue #5'
+			            },
+			            {
+			                key: 'clue6',
+			                toolTip: 'Clue #6'
+			            },
+			            {
+			                key: 'clue7',
+			                toolTip: 'Clue #7'
+			            },
+			            {
+			                key: 'clue8',
+			                toolTip: 'Clue #8'
+			            },
+			            {
+			                key: 'clue9',
+			                toolTip: 'Clue #9'
+			            },
+			            {
+			                key: 'clue10',
+			                toolTip: 'Clue #10'
+			            },
+			            {
+			                key: 'clue11',
+			                toolTip: 'Clue #11'
+			            },
+			            {
+			                key: 'clue12',
+			                toolTip: 'Clue #12'
+			            },
+			            {
+			                key: 'clue13',
+			                toolTip: 'Clue #13'
+			            },
+			            {
+			                key: 'clue14',
+			                toolTip: 'Clue #14'
+			            },
+			            {
+			                key: 'clue15',
+			                toolTip: 'Clue #15'
+			            },
+			            {
+			                key: 'clue16',
+			                toolTip: 'Clue #16'
+			            },
+			            {
+			                key: 'clue17',
+			                toolTip: 'Clue #17'
+			            },
+			            {
+			                key: 'clue18',
+			                toolTip: 'Clue #18'
+			            },
+			            {
+			                key: 'clue19',
+			                toolTip: 'Clue #19'
+			            },
+			            {
+			                key: 'clue20',
+			                toolTip: 'Clue #20'
+			            }
+			        ],
+			        showToolTip: true,
+	    			onShowToolTip: function(data) {
+				        if (this.href && this.href!='#') {
+				            data.toolTip.html('<img src="'+this.href+'">');
+				        }
+				    }
+				});
+				//$('#img_cit_map').imageMapResize();
+
+				// Resize the map to fit within the boundaries provided
+				function resize(maxWidth,maxHeight) {
+
+				     var image =  $('#img_cit_map'),
+				        imgWidth = image.width(),
+				        imgHeight = image.height(),
+				        newWidth=0,
+				        newHeight=0;
+
+				    if (imgWidth/maxWidth>imgHeight/maxHeight) {
+				        newWidth = maxWidth;
+				    } else {
+				        newHeight = maxHeight;
+				    }
+				    image.mapster('resize',newWidth,newHeight,resizeTime);   
+				}
+
+				// Track window resizing events, but only actually call the map resize when the
+				// window isn't being resized any more
+
+				function onWindowResize() {
+				    
+				    var curWidth = $(window).width(),
+				        curHeight = $(window).height(),
+				        checking=false;
+				    if (checking) {
+				        return;
+				            }
+				    checking = true;
+				    window.setTimeout(function() {
+				        var newWidth = $(window).width(),
+				           newHeight = $(window).height();
+				        if (newWidth === curWidth &&
+				            newHeight === curHeight) {
+				            resize(newWidth,newHeight); 
+				        }
+				        checking=false;
+				    },resizeDelay );
+				}
+
+				$(window).bind('resize',onWindowResize);
+			</script>
+		</div>		
+		<div id="app" style="margin-bottom:30px;">
+			<div class="app_bg"><img src="img/iphone.png">
+			</div>
+			<div id="app_sc"><iframe src="http://someoneiswatchingyou.net" class="app_screen";></iframe>
+			</div>
+		</div>
+	</div>
+<!--hover divs-->
+	<div class="l1">
+		<img src="img/l1.jpg" width="100%;">
+	</div>
+	<div class="l2">
+		<img src="img/wat_poster.jpg" width="100%;">
+	</div>
+	<div class="l3">
+	</div>
+<!--hover div locations-->	
+	<script type="text/javascript">
+		var s = skrollr.init({
+			edgeStrategy: 'set',
+			easing: {
+				WTF: Math.random,
+				inverted: function(p) {
+					return 1-p;
+				}
+			}
+		});
+	</script>
+	<script>
+	var l1c = $("#link1").offset();
+	var l1X = l1c.left;
+	var l1Y = l1c.top;
+
+	$(".l1").offset({
+		top:l1Y,
+		left:l1X+190
+		//left:link2X+500
+		//'position': 'absolute'
+	});
+
+	var l2c = $("#link2").offset();
+	var l2X = l2c.left;
+	var l2Y = l2c.top;
+
+	$(".l2").offset({
+		top: l2Y,
+		left:10
+		//left:link2X+500
+		//'position': 'absolute'
+	});
+	$(document).ready(function(){
+			$('#link1').hover(function(){
+			    $('.l1').show();	
+			  },function(){
+				 $('.l1').hide();
+			});
+
+			$('#link1').click(function(){
+			    $('.l1').show();	
+			  },function(){
+				 $('.l1').hide();
+			});
+
+			$('#link2').hover(function(){
+			    $('.l2').show();	
+			  },function(){
+				 $('.l2').hide();
+			});
+
+
+			$('#link2').click(function(){
+			    $('.l2').show();	
+			  },function(){
+				 $('.l2').hide();
+			});
+
+			$('#link3').hover(function(){
+		    $('.l3').show();		
+			  },function(){
+				 $('.l3').hide();
+			});
+	});
+
+	function resetPosition() {
+	    $('.add').each(function(i){
+	        var obj = $(this);
+	        var left = obj.offset().left;
+	        var width = obj.width();
+	        var bodyWidth = $('body').width();
+	        var right = bodyWidth - (left + width);
+	        $('.l1,.l2,l3').css({'right':right+'px'});
+	    });
+	}
+
+			//$(document).ready(function(){
+			//	var map_h = $("#img_cit_map").height();
+			//	$('#app').css ({ height: map_h}).show();
+			//	});
+
+			//	$( document ).ready(function() {
+			  //  		var scroll_pos = 0;
+			    		// console.log('scroll position = ' + scroll_pos)
+			    //        $(document).scroll(function() {
+			     //          	var topc1 = ($('#content1').position().top)-1;
+			     //       scroll_pos = $(this).scrollTop();
+
+
+			//	$(document).ready(function(){
+			//    $('.hover').hover(function(){
+			 //       $('.techinfo').fadeIn(500)
+			 //   },function(){
+			 //       $('.techinfo').fadeOut(500)
+			 //   })
+			// })
+	</script>
+	<div id="content2">
+	<li class="text">
+			<h1 style="padding-top:10px;">Outcome</h1>
+			Students who completed all of the application’s questions successfully identified the mysterious being.<br><br>  
+		</li>
+	</div>
+	<div class=".app_horizontal"><img src="img/wat_chimp.gif" style="width:100%;"></div>
+	<div id="subtitle" ><span style="font-size:22px;line-height:15px;">▽</span> Create Your Own</div>
+	<div id="content3">
+		<li class="text">
+		Encouraged by their newfound tool, a community of messaging blossomed, further uniting students to take charge of their spatial and educational surroundings.<br><br></li>
+	</div>
+
+
+<!--slide-->
+	<div class="pic_slide">
+		<div id="reviews-slider" class="flexslider" style="text-align:center;">
+			<ul class="slides">
+			<li><img id="slide1" src="img/wat_yourown2.jpg" style="width:100%;"> </li>
+			<li><img id="slide1" src="img/wat_yourown2.jpg" style="width:100%;"> </li>
+			<li><img id="slide1" src="img/wat_yourown2.jpg" style="width:100%;"> </li>
+			<li><img id="slide1" src="img/wat_yourown2.jpg" style="width:100%;"> </li>
+			</ul>
+		</div>
+	</div>
+	<div id="subtitle" ><span style="font-size:22px;line-height:12px;">▽</span> See Your Neighbors</div>
+		<div id="content4">
+		<li class="text">
+		Encouraged by their newfound tool, a community of messaging blossomed, further uniting students to take charge of their spatial and educational surroundings.<br><br></li>
+	</div>
+	<div class="pic_slide">
+		<div id="main-slider" class="flexslider" style="text-align:center;">
+			<ul class="slides">
+			<li><img id="slide1" src="img/sa1.jpg" style="width:100%;"> </li>
+			<li><img id="slide1" src="img/sa2.jpg" style="width:100%;"> </li>
+			<li><img id="slide1" src="img/sa3.jpg" style="width:100%;"> </li>
+			<li><img id="slide1" src="img/sa4.jpg" style="width:100%;"> </li>
+			</ul>
+		</div>
+	</div>
+	<!--<img id="slide2" height="200" width="400" src="sb1.jpg"></body>-->
+	</div>
+
+
+<!--
+	<li class="text">
+		Encouraged by their newfound tool, a community of messaging blossomed, further uniting students to take charge of their spatial and educational surroundings. The guide web url also provides online platform that participants can upload and share their paths, bringing a sense of community to the building.<br><br><br>
+	</li>
+	
+	<li class="text">
+		<h3>Some description may be here.</h3>	
+		<h3>Some description may be here.</h3>		
+	</li>
+		-->
+	<script>
+		  $('#main-slider').flexslider({
+		      animation: "slide",
+		  });
+
+		  $('#reviews-slider').flexslider({
+		      animation: "slide",
+		      itemWidth: 200,
+		      itemMargin: 1,
+		      minItems: 3,
+		      maxItems: 9,
+		      move: 0,
+		  });
+	</script>
+	
+
+<!--foot-->
+	<div id="foot1">© 2014—2015 <a href="http://ojusdoshi.com" target="_blank" class="add2">Ojus Doshi</a> and <a href="http://minkyoungkim.com" target="_blank" class="add2">Minkyoung Kim</a></div>
+	<div id="foot2"><a href="mailto:someoneiswatchingyounowinthislobby@gmail.com" class="add2">someoneiswatchingyounowinthislobby@gmail.com</a></div>
+
+
+
+
+</body>
+</html>
