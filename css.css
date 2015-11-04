@@ -95,6 +95,12 @@ h3 {
   transform: translate(-50%, -45%);
   z-index: 100;
 }
+.title_sub {
+	line-height:10px; font-size:70px; line-height:15px;
+}
+
+  #title p{ margin: 0; padding: 0;}
+
 
 #subtitle {
 	display: absolute;
@@ -575,26 +581,66 @@ font-size: 0px;    /*this is better than 1px
 
 
 
+
 	@media screen and (max-width: 2000px) {
-                    #title {font-size: 200px;line-height: 200px;}
+                    #title {font-size: 190px;line-height: 190px;}
+                    .title_sub { line-height:10px; font-size:70px; }
      }
 
 
 	@media screen and (max-width: 1500px) {
-                    #title {font-size: 180px;line-height: 180px;}
+                    #title {font-size: 150px;line-height: 150px;}
+                    #title p{ padding-top:30px;}
+                    .title_sub { line-height:50px; font-size:50px; }
      }
 
+
+
    @media screen and (max-width: 900px) {
-                    #title {font-size: 100px;line-height: 100px;}
+                    #title {font-size: 130px;line-height: 130px;}
+                    #title p{ padding-top:30px;}
+                    .title_sub { line-height:50px; font-size:50px; }
 
      }
    @media screen and (max-width: 700px) {
                     #title {font-size: 80px;line-height: 80px;}
                     #subtitle {font-size: 25px; height:30px;line-height: 30px;}
+                    #title p{ padding-top:30px;}
                     .text {font-size: 20px; line-height: 25px; width:70%;}
+                    #map {float: inline-block; width: 96%; margin-bottom: 20px;}
+                    #app2 {position:relative;width:100%; }
+                    #map img {width: 100%;}
+                     #app {width:100%;}
+                    .app_bg {width:96%;}
+                    .app_bg img {max-width:80%; max-height: none;}
+                    #app_sc {left:8%; width:80%;}
      }
    @media screen and (max-width: 400px) {
                     #title {font-size: 50px;line-height: 50px;}
+                    .title_sub { line-height:25px; font-size:25px; }
+                    #title p{ padding-top:10px;}
                     #subtitle {font-size: 18px; height:22px;line-height: 22px;}
-                    .text {font-size: 18px; line-height: 22px; width:80%;}}
+                    .text {font-size: 18px; line-height: 22px; width:80%;}
+                    #map {float: inline-block; width: 96%; margin-bottom: 20px;}
+                    #app2 {position:relative;width:100%; }
+                    #map img {width: 100%;}
+                    #app {width:100%;}
+                    .app_bg img {max-width:80%; max-height: none;}
+                    #app_sc {left:8%; width:80%;}
+
+    @media screen and (max-height: 1000px) {
+                    #title {font-size: 130px;line-height: 130px;}
+
+     }
+
+    @media screen and (max-height: 800px) {
+                    #title {font-size: 100px;line-height: 100px;}
+  					#title p{ padding-top:20px;}
+                    .title_sub { line-height:40px; font-size:40px; }
+     }
+
+     @media screen and (max-height: 600px) {
+                    #title {font-size: 90px;line-height: 90px;}
+                    #title p{ padding-top:10px;}
+                     .title_sub { line-height:30px; font-size:30px; }
      }
