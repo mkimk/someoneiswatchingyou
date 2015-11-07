@@ -92,7 +92,8 @@ h3 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -45%);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   z-index: 100;
 }
 .title_sub {
@@ -343,10 +344,7 @@ background: -webkit-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,1
 	vertical-align: middle;
 	}
 
-#app_bg img {
 
-
-}
 
 .app_horizontal{
 width:100%;
@@ -578,7 +576,6 @@ font-size: 0px;    /*this is better than 1px
 	@media screen and (max-width: 3000px) {
                     #title {font-size: 230px;line-height: 230px;}
      }
-
 
 
 
