@@ -49,6 +49,7 @@ h1 {
 	font-size:30px;
 	line-height: 35px;
 	text-align: center;
+	font-weight: normal;
 	}
 
 h2 {
@@ -56,6 +57,7 @@ h2 {
 	font-size:25px;
 	line-height: 30px;
 	text-align: center;
+	font-weight: normal;
 	}
 
 h3 {
@@ -63,6 +65,15 @@ h3 {
 	font-size:15px;
 	line-height: 19px;
 	text-align: center;
+	font-weight: normal;
+
+}
+.caption {
+	font-family: "bauR";
+	font-size:15px;
+	line-height: 19px;
+	text-align: left;
+	padding-top: 0px;
 
 }
 
@@ -362,11 +373,33 @@ text-align: center;
 	background-color: black;
 }
 
-.pic_slide {
+#pic_slide0 {
+	display:block;
+	margin:0 auto;
 	width:100%;
+	height:auto;
+	max-height: 100%;
 	color:#a18200;
 }
-
+#pic_slide1 {
+	display:block;
+	margin:0 auto;
+	width:80%;
+	height:auto;
+	max-height: 100%;
+	color:#a18200;
+}
+#pic_slide2 {
+	display:block;
+	margin:0 auto;
+	width:80%;
+	height:auto;
+	max-height: 100%;
+	color:#a18200;
+}
+.clone {
+	margin-left: -40px;
+	height:auto;}
 
 /*vertical*/
 #app2 {
@@ -491,6 +524,7 @@ margin:0px; top:0; position:relative; vertical-align:  middle;
 .flex-control-nav {
 	position:absolute;
 	margin-top:42%;
+	 margin-left: -80px;
 }
 #foot1 {
 	float: left;
@@ -591,12 +625,31 @@ font-size: 0px;    /*this is better than 1px
                     .title_sub { line-height:50px; font-size:50px; }
      }
 
+@media screen and (max-width: 1150px) {
+.text {font-size: 20px; line-height: 25px; width:70%;}
+                    #map {float: inline-block; width: 96%; margin-bottom: 20px;}
+                    #app2 {position:relative;width:100%; }
+                    #map img {width: 100%;}
+                     #app {width:100%;}
+                    .app_bg {width:96%;}
+                    .app_bg img {max-width:80%; max-height: none;}
+                    #app_sc {left:8%; width:80%;}
 
+                }
 
    @media screen and (max-width: 900px) {
                     #title {font-size: 130px;line-height: 130px;}
                     #title p{ padding-top:30px;}
                     .title_sub { line-height:50px; font-size:50px; }
+
+                    .text {font-size: 20px; line-height: 25px; width:70%;}
+                    #map {float: inline-block; width: 96%; margin-bottom: 20px;}
+                    #app2 {position:relative;width:100%; }
+                    #map img {width: 100%;}
+                     #app {width:100%;}
+                    .app_bg {width:96%;}
+                    .app_bg img {max-width:80%; max-height: none;}
+                    #app_sc {left:8%; width:80%;}
 
      }
    @media screen and (max-width: 700px) {
@@ -634,10 +687,12 @@ font-size: 0px;    /*this is better than 1px
                     #title {font-size: 100px;line-height: 100px;}
   					#title p{ padding-top:20px;}
                     .title_sub { line-height:40px; font-size:40px; }
+                     #foot1, #foot2 {font-size: 8px;}
      }
 
      @media screen and (max-height: 600px) {
                     #title {font-size: 90px;line-height: 90px;}
                     #title p{ padding-top:10px;}
                      .title_sub { line-height:30px; font-size:30px; }
+                     #foot1, #foot2 {font-size: 5px;}
      }
